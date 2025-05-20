@@ -1,5 +1,9 @@
 # Gemma_RecSys
-A Large Language Model based Recommendation System. Solves a user rating prediction task. 
+A Large Language Model based Recommendation System. 
+
+Significant efforts have been made towards combining traditional, hybrid recommendations with large language models. Recent large language models have demonstrated enhanced reasoning and logical abilities. Hence, it becomes increasingly relevant to investigate their effectiveness in recommendation tasks. So we can produce quality recommendations with just large language models (LLMs) and no additional complex models. In this project, we aim to evaluate light-weight LLM on a recommendation task. This is an explicit feedback based recommendation problem. 
+
+The aim here is to fine-tune the LLM on predicting movie rating for users. 
 
 ## Model Used 
 Gemma 2B instruction-tuned model ([Gemma Kaggle Model Card](https://www.kaggle.com/models/google/gemma-2/tfLite/gemma2-2b-it-gpu-int8))
